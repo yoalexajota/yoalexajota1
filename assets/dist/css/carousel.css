@@ -1,0 +1,104 @@
+.holaa {
+  text-align: center;
+  margin-top: 1rem;
+  width: 100%;
+  height: auto; }
+
+.hola2 {
+  margin-top: 1rem; }
+
+.jajaja {
+  font-size: 50px;
+  font-weight: 50;
+  margin-bottom: 0; }
+
+.juajua {
+  text-align: center; }
+
+.container-fluid {
+  padding: 0; }
+
+.hola5 {
+  padding: 0; }
+
+.hola6 {
+  margin: 0; }
+
+.padd1 {
+  padding: .5rem 1rem; }
+
+.contenido {
+  background-image: url(https://images.pexels.com/photos/2792347/pexels-photo-2792347.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+  width: 100%;
+  height: 600px;
+  background-size: cover;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+  overflow: hidden; }
+  .contenido h1, .contenido p {
+    padding-left: 20px;
+    padding-right: 20px; }
+
+.txt {
+  position: absolute;
+  transition: all .5s;
+  transform: scale(1.5);
+  opacity: 0; }
+
+.txt:hover {
+  transform: scale(1);
+  opacity: 1; }
+
+.unremtop {
+  padding-top: 1rem; }
+
+.unrembottom {
+  padding-bottom: 1rem; }
+
+.featurette-divider {
+  margin: 1rem; }
+
+.footerFlex {
+  display: flex;
+  justify-content: space-evenly;
+  padding-left: 0;
+  margin: 0; }
+
+@media (max-width: 576px) {
+  .contenido {
+    background-image: url(https://images.pexels.com/photos/4255490/pexels-photo-4255490.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    overflow: hidden; }
+    .contenido h1, .contenido p {
+      padding-left: 20px;
+      padding-right: 20px; }
+  .txt {
+    position: absolute;
+    transition: all .5s;
+    transform: scale(1.5);
+    opacity: 0; }
+  .txt:hover {
+    transform: scale(1);
+    opacity: 1; } }
+
+body {
+  padding-top: 3rem;
+  padding-bottom: 0;
+  color: #5a5a5a; }
+
+a, li {
+  list-style-type: none; }
