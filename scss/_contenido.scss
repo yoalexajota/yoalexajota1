@@ -44,6 +44,9 @@
   color: white;
   text-align: center;
   overflow: hidden;
+  h1, p {
+  padding-left: 20px;
+  padding-right: 20px;}
 }
 .txt {
   position: absolute;
@@ -56,7 +59,11 @@
   transform: scale(1);
   opacity: 1;
 }
+
 // fin portada index
+
+
+
 
 .unremtop {
   padding-top: 1rem; }
@@ -67,6 +74,7 @@
 .featurette-divider {
   margin: 1rem ;
 }
+
 // formulario
 form {
   width: 450px;
@@ -113,4 +121,5 @@ input, textarea {
 .contenido2 {
   background-image: url(https://images.pexels.com/photos/2792347/pexels-photo-2792347.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
   background-size: cover;
-  height: 600px;}
+  height: 600px;
+}

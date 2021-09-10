@@ -40,6 +40,9 @@
   color: white;
   text-align: center;
   overflow: hidden; }
+  .contenido h1, .contenido p {
+    padding-left: 20px;
+    padding-right: 20px; }
 
 .txt {
   position: absolute;
