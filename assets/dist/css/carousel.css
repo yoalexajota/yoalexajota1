@@ -40,9 +40,6 @@
   color: white;
   text-align: center;
   overflow: hidden; }
-  .contenido h1, .contenido p {
-    padding-left: 20px;
-    padding-right: 20px; }
 
 .txt {
   position: absolute;
@@ -102,8 +99,8 @@ textarea {
   cursor: pointer;
   background: hotpink; }
 
-.backgroundimage {
-  background-image: url(https://images.pexels.com/photos/763934/pexels-photo-763934.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+.contenido2 {
+  background-image: url(https://images.pexels.com/photos/2792347/pexels-photo-2792347.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
   background-size: cover;
   height: 600px; }
 
