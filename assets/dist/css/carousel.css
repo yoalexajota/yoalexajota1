@@ -44,16 +44,6 @@
     padding-left: 20px;
     padding-right: 20px; }
 
-.txt {
-  position: absolute;
-  transition: all .5s;
-  transform: scale(1.5);
-  opacity: 0; }
-
-.txt:hover {
-  transform: scale(1);
-  opacity: 1; }
-
 .unremtop {
   padding-top: 1rem; }
 
@@ -113,7 +103,10 @@ textarea {
   top: 150px;
   left: 40px;
   width: 80%;
-  height: 150vh; }
+  height: 30vh;
+  box-sizing: border-box;
+  border-radius: 7px;
+  background: rgba(0, 0, 0, 0.4); }
 
 .textos:hover {
   opacity: 1;
